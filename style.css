@@ -1,0 +1,450 @@
+:root {
+  --primary-color: #00985b;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 1700px;
+}
+
+/* navbar start */
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 5px;
+}
+.nav-color {
+  background-color: #048853;
+  transition: all ease-in-out 0.3s;
+  z-index: 3;
+}
+a.nav-link {
+  color: #fff;
+  font-family: monospace;
+  font-size: 1rem;
+  font-family: monospace;
+  letter-spacing: 5px;
+}
+a.nav-link:hover {
+  color: orange;
+  border-bottom: thin solid orange;
+}
+
+.button-primary {
+  background: transparent;
+  border: none;
+  margin: 0px 10px;
+}
+.button-secondary {
+  padding: 5px 10px;
+}
+/* navbar end */
+
+/* section start  */
+.hero {
+  background: linear-gradient(
+    112.9deg,
+    #048853 0.98%,
+    rgba(0, 0, 0, 0.84) 165.36%
+  );
+  height: 100vh;
+  width: 100%;
+}
+.tag-line h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 5px;
+}
+.tag-line p {
+  margin: 25px 0px;
+  color: white;
+  font-size: 20px;
+  z-index: 2;
+  width: 100%;
+  font-family: monospace;
+}
+.tag-line button {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.tag-line button:hover {
+  background-color: #ccc;
+}
+
+.img-hero {
+  height: 96%;
+  z-index: 0;
+}
+
+/* layanan section */
+.layanan {
+  margin: 150px 0px;
+}
+.layanan h1 {
+  margin-top: 100px;
+  color: #00985b;
+  font-style: monospace;
+  letter-spacing: 5px;
+}
+
+.layanan span {
+  color: var(--primary-color);
+  letter-spacing: 2px;
+}
+
+.img-card {
+  background: #fff;
+  border-radius: 10px;
+  height: 313px;
+  width: 100%;
+  padding: 40px;
+  transition: all 0.1s ease-in;
+}
+
+.card-circle {
+  border-radius: 100%;
+  background: var(--primary-color);
+  width: 70px;
+  height: 70px;
+}
+
+.img-card h3 {
+  transition: all 0.3s ease-in;
+}
+.img-card p {
+  transition: all 0.5s ease-in;
+}
+/* layanan hover */
+.img-card:hover {
+  background: var(--primary-color);
+  border-radius: 10px;
+  height: 313px;
+  width: 100%;
+  padding: 40px;
+  color: #fff;
+}
+.card-circle:hover {
+  border-radius: 100%;
+  background: white;
+  width: 70px;
+  height: 70px;
+}
+
+/* .img-card:hover {
+  border-radius: 10px;
+  height: 313px;
+  width: 100%;
+  padding: 40px;
+  color: #fff;
+} */
+/* layanan section end */
+/* search section start  */
+.search {
+  background-image: url(./Asset/img/interior.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.judul-search {
+  color: #fff;
+}
+.judul-search h2 {
+  font-size: 48px;
+  font-style: monospace;
+  color: #fff;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+}
+.judul-search p {
+  font-size: 20px;
+  font-style: monospace;
+  color: #fff;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.input-cari {
+  height: 88px;
+}
+.input-cari input:focus {
+  border: none;
+  outline: none;
+}
+
+.input-cari .btn-secondary {
+  border: none;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 0px 10px 0 10px;
+}
+.input-cari .btn-primary {
+  border: none;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.input-cari .button-primary {
+  background-color: var(--primary-color);
+  font-size: 34px;
+  width: 135px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.nav-tabs {
+  width: 268px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 0 0;
+  border: none;
+}
+.nav-tabs .nav-link {
+  color: black;
+  font-weight: 600;
+}
+.nav-tabs .nav-link .active {
+  background-color: none;
+  color: var(--primary-color);
+}
+
+.nav-tabs .nav-link:hover {
+  border: none;
+  color: black;
+}
+
+/* search section end  */
+
+/* section rekomendasi  */
+.rekomendasi {
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: var(--primary-color);
+}
+
+.card {
+  width: 80%;
+  height: 469px;
+}
+
+.card-body h2 {
+  height: 25px;
+  width: 200px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  font-family: monospace;
+}
+.card-body p {
+  line-height: 21px;
+  font-weight: 200px;
+  font-size: 14px;
+  font-family: monospace;
+  color: #444;
+}
+.card:hover {
+  background: linear-gradient(
+    112.9deg,
+    #048853 0.98%,
+    rgba(0, 0, 0, 0.84) 165.36%
+  );
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: all ease-in-out 0.3s;
+}
+.card:hover .card-body h2 {
+  color: white;
+  transition: all ease-in-out 0.3s;
+}
+.card:hover .card-body p {
+  color: white;
+  transition: all ease-in-out 0.4s;
+}
+.card-body {
+  height: 170px;
+}
+.card-fasilitas {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 14px;
+}
+.card-fasilitas span {
+  padding: 2px 25px;
+  font-weight: bold;
+  line-height: 10px;
+}
+.card-fasilitas img {
+  font-size: 20px;
+}
+.card-fasilitas p {
+  font-size: 15px;
+  padding: 2px 0px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+/* section rekomendasi end  */
+
+/* section fitur */
+.tittle{
+  padding-top: 8rem;
+}
+.card-fitur {
+  
+  width: 238px;
+  height: 63px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  font-family: monospace;
+  font-size: 19px;
+}
+.title h2 {
+  width: 298;
+  height: 72;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  font-family: monospace;
+  color: var(--primary-color);
+}
+.card-over {
+  position: relative;
+
+  text-align: center;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.card-over h5 {
+  color: #fff;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 36px;
+}
+
+.card-over span {
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 14px;
+}
+.card-over h6 {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: monospace;
+  color: #fff;
+  height: 60px;
+}
+
+.card-over button {
+  background-color: var(--primary-color);
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  border: none;
+  color: #fff;
+}
+
+.card-over:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: visible;
+  transition: all ease-in-out 0.3s;
+}
+
+.button-left {
+  padding: 15px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  border-radius: 100%;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.button-right {
+  padding: 15px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  border-radius: 100%;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+/* section fitur end*/
+
+/* section contact start */
+.contact {
+  background: url(./Asset/img/image\ 20.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.kontak {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.kontak h6 {
+  font-size: 25px;
+}
+.konsultasi {
+  font-size: 40px;
+  width: 580px;
+}
+.medsos {
+  margin-top: 10px;
+}
+.tanya {
+  position: relative;
+  background: #fff;
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+}
+.pesan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tanya input {
+  padding: 20px;
+  margin: 20px 0px;
+  outline: none;
+  width: 100%;
+}
+.tanya button {
+  padding: 20px 0px;
+  color: white;
+  width: 100%;
+  font-size: 25px;
+}
+/* section contact end */
+/* section end  */
